@@ -24,7 +24,9 @@
 
 import Nav from './Nav'
 import io from "socket.io-client";
-const socket = io('http://localhost:5000');
+// const socket = io('http://localhost:5000');
+const socket = io('https://multi-chat-we-group.herokuapp.com/');
+
 var audio = new Audio('media/chat.mp3')
 
 export default {
